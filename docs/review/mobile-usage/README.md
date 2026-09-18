@@ -11,3 +11,11 @@ no live server data, credentials, account identifiers or browser chrome appear.
 - Tablet and desktop captures show the usage component bounds.
 
 The screenshot branch is separate from the code PR.
+
+Additional full-viewport desktop evidence (no cropping):
+- `desktop-1024.png`: 1024 × 768, dark theme.
+- `desktop-1440.png`: 1440 × 900, dark theme.
+- `desktop-1920.png`: 1920 × 1080, light theme.
+
+At each size all seven columns fit without horizontal scrolling, the page has
+no horizontal overflow, and the two sample rows are at most 65 CSS pixels tall.
