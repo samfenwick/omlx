@@ -19,3 +19,15 @@ Additional full-viewport desktop evidence (no cropping):
 
 At each size all seven columns fit without horizontal scrolling, the page has
 no horizontal overflow, and the two sample rows are at most 65 CSS pixels tall.
+
+Full dashboard evidence supersedes the isolated desktop usage previews:
+- `full-dashboard-1024.png`, `full-dashboard-1440.png`, `full-dashboard-1920.png`
+  show the actual dashboard.html, production JavaScript and GridStack layout
+  from navbar through all eight blocks to Engine Versions, with synthetic APIs.
+- `full-dashboard-lower.png` is a closer viewport capture below Usage History.
+- Compared with unchanged upstream styles/template at the same widths: all six
+  blocks below Usage History retain their widths and heights; all eight blocks
+  remain present, with no overlap or horizontal page overflow. The same checks
+  also pass at 390px.
+- The fixture records existing hidden modal/cluster Alpine expression errors;
+  these occur with upstream too. This is layout evidence, not backend validation.
